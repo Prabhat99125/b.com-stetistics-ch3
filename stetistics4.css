@@ -176,7 +176,9 @@ samp {
 .arrTable {
     margin: 10px;
 }
-
+main {
+    display: none;
+}
 .loder-svg {
     display: flex;
     justify-content: center;

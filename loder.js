@@ -2,7 +2,6 @@ let lod = document.querySelector("#loder");
 let main = document.querySelector("main");
 
 window.addEventListener("load", function() {
-    main.style.display = "none";
     setTimeout(function()  {
         lod.style.display = "none";  
         main.style.display = "block";      
