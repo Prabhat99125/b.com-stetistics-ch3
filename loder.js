@@ -7,5 +7,5 @@ window.addEventListener("load", function() {
         lod.style.display = "none";  
         main.style.display = "block";      
     }, 3000);
-    // main.style.display = "block";
+  
 });
