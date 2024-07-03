@@ -46,13 +46,14 @@ getData.addEventListener("click",() => {
     
     let npTable = `<table><thead><tr><th>નિદર્શ</th><th>ખામીવાળી વસ્તુઓ</th></tr></thead><tbody>`;
     for ( a=0; a<namunaNo.value; a++) {
-        npTable += `<tr><td>${no[a]}</td><td>${iptArray[a]}</td></tr>`
+        npTable += `<tr><td>${no[a]}</td><td>${iptArray[a]}</td></tr>`;
     }
+  
     for (a of iptArray) {
         sumiptArray += a;
     }
     
-    npTable += `<tr><td><b>Total</b></td><td><b>${sumiptArray}</b></td></tr></tbody></table>`
+    npTable += `<tr><td><b>Total</b></td><td><b>${sumiptArray}</b></td></tr></tbody></table>`;
     addtable.innerHTML = npTable;
 
     // calculet

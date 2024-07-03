@@ -176,3 +176,8 @@ samp {
 .arrTable {
     margin: 10px;
 }
+
+.loder-svg {
+    display: flex;
+    justify-content: center;
+}
