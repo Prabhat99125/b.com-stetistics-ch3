@@ -180,6 +180,8 @@ main {
     display: none;
 }
 .loder-svg {
+    height: 70vh;
+    align-items: center;
     display: flex;
     justify-content: center;
 }
